@@ -578,6 +578,7 @@
 		5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_iPhone_Tests.m; sourceTree = "<group>"; };
 		5623C58017FDCB0900090B9E /* Unity-iPhone Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unity-iPhone Tests-Prefix.pch"; sourceTree = "<group>"; };
 		56811BBE2C1B67B200C70D44 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = ../Documentation.docc; sourceTree = "<group>"; };
+		56811BC22C1B705900C70D44 /* Unity-iPhoneReleaseForRunning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Unity-iPhoneReleaseForRunning.entitlements"; sourceTree = "<group>"; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56B7959A1442E0F20026B3DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		56B795C11442E1100026B3DD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -1529,6 +1530,7 @@
 		9C954E01B47F52314510BE4F /* Unity-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				56811BC22C1B705900C70D44 /* Unity-iPhoneReleaseForRunning.entitlements */,
 				272244E0A23C040A4F0CEBD2 /* ARReferenceImages.xcassets */,
 				40D74FA3AEE55B7076CDCD8A /* ARReferenceObjects.xcassets */,
 			);
@@ -2423,6 +2425,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone/Unity-iPhoneReleaseForRunning.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
