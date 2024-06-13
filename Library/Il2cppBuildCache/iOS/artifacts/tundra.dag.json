@@ -1,0 +1,175 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Inputs": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.InternalAPIEngineBridge.003.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.VectorGraphics.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.FaceTracking.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Temp/StagingArea/Data/Managed/mscorlib.dll"
+      ],
+      "Outputs": [],
+      "TargetDirectories": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "cp \"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "cp \"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/tylerglass/Documents/Work documents/Internship Project/GSNTX_2021_Intern_Code/GSNETX-ARGreenhouse/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../../../../Library"
+    },
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
