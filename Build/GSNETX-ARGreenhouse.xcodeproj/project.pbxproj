@@ -125,6 +125,9 @@
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		566041F6A33EE945BE393DA7 /* UnityEngine.GameCenterModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 11C142F8BF477F0ED9646B2F /* UnityEngine.GameCenterModule_CodeGen.c */; };
 		5668482E89764F8D7BF4BBE6 /* Unity.XR.Management.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE0A4A4784CC745633863209 /* Unity.XR.Management.cpp */; };
+		56811BBF2C1B67B200C70D44 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 56811BBE2C1B67B200C70D44 /* Documentation.docc */; };
+		56811BC02C1B67B200C70D44 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 56811BBE2C1B67B200C70D44 /* Documentation.docc */; };
+		56811BC12C1B67B200C70D44 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 56811BBE2C1B67B200C70D44 /* Documentation.docc */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		57C9484389B1FDBB7D526318 /* Il2CppGenericComDefinitions43.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40194FD58CE51ED2E92143F6 /* Il2CppGenericComDefinitions43.cpp */; };
 		589F47B2A80DDE9243B7D132 /* Unity.XR.ARFoundation_Attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AA347418316BC3CADAE0E15 /* Unity.XR.ARFoundation_Attr.cpp */; };
@@ -574,6 +577,7 @@
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_iPhone_Tests.m; sourceTree = "<group>"; };
 		5623C58017FDCB0900090B9E /* Unity-iPhone Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unity-iPhone Tests-Prefix.pch"; sourceTree = "<group>"; };
+		56811BBE2C1B67B200C70D44 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = ../Documentation.docc; sourceTree = "<group>"; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56B7959A1442E0F20026B3DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		56B795C11442E1100026B3DD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -976,6 +980,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				56811BBE2C1B67B200C70D44 /* Documentation.docc */,
 				AA31BF961B55660D0013FB1B /* Data */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				9DA3B0422174CB96001678C7 /* MainApp */,
@@ -1792,6 +1797,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA3B0442174CB96001678C7 /* main.mm in Sources */,
+				56811BBF2C1B67B200C70D44 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1800,6 +1806,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */,
+				56811BC02C1B67B200C70D44 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1888,6 +1895,7 @@
 				7FB240A883799AD96CB8A5C1 /* Generics5.cpp in Sources */,
 				939647DEB7758DBEA2C03409 /* Generics6.cpp in Sources */,
 				DD0749B5B58B9A747EB52D0B /* Generics7.cpp in Sources */,
+				56811BC12C1B67B200C70D44 /* Documentation.docc in Sources */,
 				CF1740E09A0F27B5AA6E7A15 /* Generics8.cpp in Sources */,
 				D4E74C99A09030E9E303069C /* Generics9.cpp in Sources */,
 				38D44CCC84F615BFF30B17F6 /* Il2CppCCFieldValuesTable.cpp in Sources */,
