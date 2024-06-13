@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0c5d33edbf7431bb4a06371d9b40bc, type: 3}
+  m_Name: Botanist
+  m_EditorClassIdentifier: 
+  careerTitle: Botanist
+  careerSkill_1: Plants
+  careerSkill_2: Biology
+  careerSkill_3: Outdoors
+  careerDesciption: The botanists choose which plants to grow and decides what is
+    needed to take care of them properly.
+  careerSalaryMin: 58000
+  careerSalaryMax: 86000
+  careerEducationReq: This job requires a 4-year bachelor's degree.
+  relatedActivity: Think Like A Citizen Scientist Journey and the Gardener badge
+  isVisited: 0

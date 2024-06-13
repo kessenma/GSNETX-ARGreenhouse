@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a225fd4fae542b7ad28862b1892422, type: 3}
+  m_Name: GreenhouseTab
+  m_EditorClassIdentifier: 
+  label: Greenhouse
+  bodyTitle: Growing in a Greenhouse
+  bodyText: Farming in a greenhouse involves growing crops within a mostly transparent
+    building. This allows the farmer to regulate the weather conditions the plants
+    experience.
+  benefitsText: 'Benefits:'
+  benefit1: More efficient (Less water, more crops)
+  benefit2: Less land needed because of vertical farming
+  img: {fileID: 21300000, guid: e791a22842ec94de3a0cd3fd03f00c62, type: 3}

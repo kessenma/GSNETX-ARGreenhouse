@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 4fa41011b19084f129b0a32049014d27
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Girl Scout
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 86120fccd86494527ad78bd33524f3b1, type: 3}
+  - {fileID: 12800000, guid: f9cb46ca0724644e59548529b46e2336, type: 3}
+  - {fileID: 12800000, guid: b0e9c53d4ac2e4e8cacd0fa4ab4428a0, type: 3}
+  - {fileID: 12800000, guid: 03b47c4383fae440ba5c65a2f75bcf69, type: 3}
+  - {fileID: 12800000, guid: b2d618878b45144efaa37dbe0becdcac, type: 3}
+  - {fileID: 12800000, guid: c6dc4b561105340369a8a858819c47ed, type: 3}
+  - {fileID: 12800000, guid: 7ec22ff94b2e047b58c8ea64716871f1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

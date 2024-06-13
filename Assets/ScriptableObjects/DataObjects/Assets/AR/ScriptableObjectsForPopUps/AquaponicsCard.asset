@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2a5697b70f5462985550bec49bd047, type: 3}
+  m_Name: AquaponicsCard
+  m_EditorClassIdentifier: 
+  cardTitle: Aquaponics
+  cardListItemTitle1: 'Description:'
+  cardListItemBody1: Sustainable food production through a fish and plant ecosystem
+  cardListItemTitle2: 'Produces:'
+  cardListItemBody2: Fish and Plants

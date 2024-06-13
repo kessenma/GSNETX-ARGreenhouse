@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1196a700ec84cb9abda16e2e12753c, type: 3}
+  m_Name: SceneHandler
+  m_EditorClassIdentifier: 
+  mainMenuSceneName: {fileID: 11400000, guid: 1599d2da111c94ebca676465d414db1f, type: 2}
+  mainMenuSceneBuildIndex: {fileID: 11400000, guid: e37a4076168134daa95bc99f39096c03,
+    type: 2}
+  pauseScreenSceneName: {fileID: 11400000, guid: d5e6d3d2204c54f6b949569793c71096,
+    type: 2}

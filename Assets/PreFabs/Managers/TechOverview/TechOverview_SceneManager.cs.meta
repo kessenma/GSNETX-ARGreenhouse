@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 0bda7db5a8b9b4b5399569d9f6721141
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Scene: {fileID: 11400000, guid: d30662740f7024d3d8ffd5aebb0124ee, type: 2}
+  - introText_textObj: {instanceID: 0}
+  - techUsedTitle_textObj: {instanceID: 0}
+  - techUsedBody_textObj: {instanceID: 0}
+  - listItem1_textObj: {instanceID: 0}
+  - listItem2_textObj: {instanceID: 0}
+  - listItem3_textObj: {instanceID: 0}
+  - listItem4_textObj: {instanceID: 0}
+  - walkthroughTitleThree_textObj: {instanceID: 0}
+  - remiTextBubbleThree_textObj: {instanceID: 0}
+  - sensorTextThree_textObj: {instanceID: 0}
+  - appSoftwareTextThree_textObj: {instanceID: 0}
+  - systemsTextThree_textObj: {instanceID: 0}
+  - farmingSustainabilityTextThree_textObj: {instanceID: 0}
+  - jumbotronTextThree_textObj: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

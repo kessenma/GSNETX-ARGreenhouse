@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168970a64b1cf46c59f6f5421502fe50, type: 3}
+  m_Name: Closing Screen_Scene
+  m_EditorClassIdentifier: 
+  CollabPage: {fileID: 11400000, guid: b6486421e839543b79e947d92a32a858, type: 2}
+  Page1: {fileID: 11400000, guid: 1f99e6b6ff5274fd5a2db3de3ef55dca, type: 2}
+  Page2: {fileID: 11400000, guid: b56766012d6f14be68372c8672e1d193, type: 2}
+  Page3: {fileID: 11400000, guid: ae8cded9a51f447c4b44d498011c73b1, type: 2}
+  Page4: {fileID: 11400000, guid: 6d7dac8705ae4442298075d9141594bd, type: 2}

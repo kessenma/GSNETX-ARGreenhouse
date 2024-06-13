@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: Composting_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 6406899666692190471, guid: accdc6b6714ef4b0dab1247674ca8b8b,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 6406899666692190471, guid: accdc6b6714ef4b0dab1247674ca8b8b,
+    type: 3}
+  nearFoundPrefab: {fileID: 6406899666692190471, guid: 2228b3dcf53234fa68d6b0a7b5cbfa26,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: 91ceacc42b8d64a018dba38de90d612e,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: 2d5c2495611c1477897326234dfd7933,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: f8122ba4fa2af4a9ca4582354eb9f660,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: e1ccdd93092444d98a465c6b614ce86b, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 99c419c85d992415b944afd54971cd87,
+    type: 2}
+  categoryName: 4
+  objectName: 11

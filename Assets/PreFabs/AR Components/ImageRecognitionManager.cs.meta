@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 679491eb26feb4cfc9249085f04ebf9c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - zoneOrigins: {instanceID: 0}
+  - activeZone: {instanceID: 0}
+  - zoneImageTracked: {instanceID: 0}
+  - tiltedHelpPrefab: {fileID: 7544421211550169961, guid: 38bec380492c24cebbb30a493f72119c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

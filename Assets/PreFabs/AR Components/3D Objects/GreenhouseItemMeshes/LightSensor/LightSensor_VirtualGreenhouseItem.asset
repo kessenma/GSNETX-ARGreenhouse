@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: LightSensor_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 8831744162120217748, guid: bc80ed65b1c8441fe9ddce22ecb841af,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 8831744162120217748, guid: 9a4808d0e1cd842f0b62ac70804bb6e7,
+    type: 3}
+  nearFoundPrefab: {fileID: 8831744162120217748, guid: a7652b3651c734698875ec67e6ac8b33,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: b2b2ec7c536e840cc810a4cb0c74b80c,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: a1588df7aa53342ffbd82604e8146a6e,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: 01c60c7af43b246f7a59d550870b8b61,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: c828ab788b6034739a2ab67033f72097, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 09fc1e4b80db542eb89d55f3a994e1a2,
+    type: 2}
+  categoryName: 1
+  objectName: 3

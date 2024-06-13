@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: TemperatureSensor_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 6064525955763671356, guid: 46483ebb60ec14e098077c21d9fbc854,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 51582644604362024, guid: ec6562e50727f4514acbd8f91dcd4c1b,
+    type: 3}
+  nearFoundPrefab: {fileID: 51582644604362024, guid: 4c6bed76d6f7b48279a94d5268f318fc,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: fc25738d14cb94a669ac44b00511bdd3,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: 5983f0330cbcc4fa4b9ab3ab3a9a5b9c,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: a569bb55eca4342a6a23e716534b5bfb,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: 62514bab43ac146de913722a3f857314, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 09fc1e4b80db542eb89d55f3a994e1a2,
+    type: 2}
+  categoryName: 1
+  objectName: 2

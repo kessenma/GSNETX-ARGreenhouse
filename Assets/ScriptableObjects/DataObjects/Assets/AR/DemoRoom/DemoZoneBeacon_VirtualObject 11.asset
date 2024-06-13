@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09af81e9da0874404acd744f5e110367, type: 3}
+  m_Name: DemoZoneBeacon_VirtualObject 11
+  m_EditorClassIdentifier: 
+  zoneName: 5
+  virtualGreenhouseItem: {fileID: 11400000, guid: 9f34831e688cd46299c78c2155aae1df,
+    type: 2}
+  offset: {x: -1, y: 0.5, z: -1}
+  isAPopUpOnScreen: 0
+  isFound: 0
+  UUID: f7bd22e8-121a-4105-b7f2-e5c94f01d197
+  major: 2
+  minor: 20
+  range: 0
+  distance: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9ea4e1a78714b4879a5c52de57ea687e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - virtualObjects: {fileID: 11400000, guid: 99c339f41b87f47899eb46975fce2c2f, type: 2}
+  - activeZone: {fileID: 11400000, guid: e239cd7068d2a495a89d57a7d111e46e, type: 2}
+  - virtualObjectPrefab: {fileID: 6633442958532913282, guid: 6d2f17a087109414baad295f068802ec,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

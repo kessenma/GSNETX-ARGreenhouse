@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b81335857e34d908d2ea8d7e59bf4b, type: 3}
+  m_Name: Careers_Scene
+  m_EditorClassIdentifier: 
+  Recommendation: {fileID: 11400000, guid: 17e7e4b417db64f4393054d2c10bee35, type: 2}
+  Page1: {fileID: 11400000, guid: b03fedd5b72da44cda4439a5ed488bcf, type: 2}
+  Page2: {fileID: 11400000, guid: 23b5144761d374ce1ad48ab010fb4fa6, type: 2}
+  Page3: {fileID: 11400000, guid: e6a2400e1604f4ec1a816580bf10474f, type: 2}
+  Page4: {fileID: 11400000, guid: d25085fd2d6e14d9db285121968e9bde, type: 2}
+  PanelPopUp: {fileID: 11400000, guid: 9adcd5e23f7564057ba1a8f58a5b98ec, type: 2}

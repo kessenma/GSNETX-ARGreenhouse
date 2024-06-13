@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0c5d33edbf7431bb4a06371d9b40bc, type: 3}
+  m_Name: ProjectManager
+  m_EditorClassIdentifier: 
+  careerTitle: Project Manager
+  careerSkill_1: Leadership
+  careerSkill_2: Organization
+  careerSkill_3: Technical
+  careerDesciption: The project managers guide the team and make the final decisions
+    for the app.
+  careerSalaryMin: 100000
+  careerSalaryMax: 181000
+  careerEducationReq: This requires a 4-year bachelor's degree plus work experience.
+  relatedActivity: Ask about Leadership opportunities!
+  isVisited: 0

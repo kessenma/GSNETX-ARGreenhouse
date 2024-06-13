@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: AutomatedControlSystem_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 5604192051231258816, guid: 75637cffcf41542dc82e7ec7ceca77a2,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 5604192051231258816, guid: d9a977ccb89b24839b5c24d2e12957bb,
+    type: 3}
+  nearFoundPrefab: {fileID: 5604192051231258816, guid: e3033b65a4a34486e8f5cc5f5823155f,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: f9056bb14682b4c84b5a7287ae604881,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: 95f7070bd077246e6910e2fb15c22338,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: 4b66a86a9247b4ea1a10514d6b196774,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: 44c0afe09368c468888a35bf822caf77, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 5b02fd121389f41078300c535083f066,
+    type: 2}
+  categoryName: 3
+  objectName: 8

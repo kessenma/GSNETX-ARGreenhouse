@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f723decb35f824a4f987992456c54843, type: 3}
+  m_Name: Closing Screen_Page 2
+  m_EditorClassIdentifier: 
+  namesHeader: 'A Special Thank You To:'
+  name_1: Gagandeep Singh
+  name_2: Jimmy Meza
+  name_3: David Bacon
+  name_4: Jennifer Sanders
+  name_5: Dr. Regina Greuel Cook
+  name_6: Lauran Clarke
+  name_7: Abby Leake
+  name_8: Emily Anderson
+  name_9: Tracy Friday
+  name_10: Dr. Angel Durr
+  name_11: Jeffrey Raska
+  name_12: Elizabeth Rudd

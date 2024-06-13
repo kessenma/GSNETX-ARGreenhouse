@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc94c3837e806436f93814f497c6d240, type: 3}
+  m_Name: ProblemStatement_Page5
+  m_EditorClassIdentifier: 
+  title: Food Insecurity in Dallas
+  infographicText01: 17.2% of Dallas County experiences food insecurity
+  infographicText02: <b>Food Insecurity</b> means a lack of consistent access to
+    enough food for an active, healthy life
+  body: With food insecurity and decreasing cropland, fresh, healthy food is difficult
+    to provide. Can you think of a solution to this problem?

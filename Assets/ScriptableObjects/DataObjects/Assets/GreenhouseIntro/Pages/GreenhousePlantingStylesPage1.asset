@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d17162bf7d1f41988f72ac50e5c123c, type: 3}
+  m_Name: GreenhousePlantingStylesPage1
+  m_EditorClassIdentifier: 
+  remiQuestionText: Why is growing in a smart greenhouse so much better?
+  answerText: Largely because of the growing methods used. Click next to learn more!
+  smartGrowingImage: {fileID: 21300000, guid: 612162fa758d140899b4f4479d52564b, type: 3}

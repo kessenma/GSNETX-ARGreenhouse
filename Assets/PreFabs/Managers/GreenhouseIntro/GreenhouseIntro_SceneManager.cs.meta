@@ -1,0 +1,63 @@
+fileFormatVersion: 2
+guid: d40f796c0b61b4d639820ff15d14b7d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scene: {fileID: 11400000, guid: 862233becaf474249a5f30cf0be253c5, type: 2}
+  - introPage: {instanceID: 0}
+  - plantingStyleIntroPage: {instanceID: 0}
+  - farmingStyles: {instanceID: 0}
+  - phase1Page: {instanceID: 0}
+  - phase2Page: {instanceID: 0}
+  - phase3Page: {instanceID: 0}
+  - introText: {instanceID: 0}
+  - introTextTest: {instanceID: 0}
+  - introImage: {instanceID: 0}
+  - growingOutsideLabel: {instanceID: 0}
+  - growingGreenhouseLabel: {instanceID: 0}
+  - growingSmartGreenhouseLabel: {instanceID: 0}
+  - soilLabel: {instanceID: 0}
+  - hydroponicsLabel: {instanceID: 0}
+  - aquaponicsLabel: {instanceID: 0}
+  - growingOutsideTitle: {instanceID: 0}
+  - growingGreenhouseTitle: {instanceID: 0}
+  - growingSmartGreenhouseTitle: {instanceID: 0}
+  - soilTitle_TMP: {instanceID: 0}
+  - hydroponicsTitle_TMP: {instanceID: 0}
+  - aquaponicsTitle_TMP: {instanceID: 0}
+  - growingOutsideBody: {instanceID: 0}
+  - growingGreenhouseBody: {instanceID: 0}
+  - growingSmartGreenhouseBody: {instanceID: 0}
+  - soilBody_TMP: {instanceID: 0}
+  - hydroponicsBody_TMP: {instanceID: 0}
+  - aquaponicsBody_TMP: {instanceID: 0}
+  - growingOutsideBenefits: {instanceID: 0}
+  - growingGreenhouseBenefits: {instanceID: 0}
+  - growingSmartGreenhouseBenefits: {instanceID: 0}
+  - soilBenefits_TMP: {instanceID: 0}
+  - hydroponicsBenefits_TMP: {instanceID: 0}
+  - aquaponicsBenefits_TMP: {instanceID: 0}
+  - growingOutsideImg: {instanceID: 0}
+  - growingGreenhouseImg: {instanceID: 0}
+  - growingSmartGreenhouseImg: {instanceID: 0}
+  - soilImg: {instanceID: 0}
+  - hydroponicsImg: {instanceID: 0}
+  - aquaponicsImg: {instanceID: 0}
+  - remiQuestionText_TMP: {instanceID: 0}
+  - answerText_TMP: {instanceID: 0}
+  - smartGrowingImg: {instanceID: 0}
+  - phase1Text: {instanceID: 0}
+  - phase1Image2: {instanceID: 0}
+  - phase1Image3: {instanceID: 0}
+  - phase2Text: {instanceID: 0}
+  - phase2Image1: {instanceID: 0}
+  - phase2Image2: {instanceID: 0}
+  - phase2Image3: {instanceID: 0}
+  - phase3Text_TMP: {instanceID: 0}
+  - phase3Image: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

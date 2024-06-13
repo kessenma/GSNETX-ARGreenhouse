@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4e5f60060714be7b133697ed30c52f, type: 3}
+  m_Name: GreenhouseIntro_BeforePage
+  m_EditorClassIdentifier: 
+  phase1Text: The Girl Scouts decided to turn this old, unused pool into a learning
+    space that bridges STEM and Agriculture!
+  phase1Image2: {fileID: 21300000, guid: e2e35aec8b1c449daa4ff70040d753b2, type: 3}
+  phase1Image3: {fileID: 21300000, guid: 24a9249ce3584468da369152b31d313a, type: 3}

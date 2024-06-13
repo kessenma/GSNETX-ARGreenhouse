@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7f36d2b856ce84bb1a19c378ad4b38d9
+labels:
+- Concrete
+- Construction
+- Environment
+- Pipe
+- Props
+- Rough
+- T-section
+- Intersection
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

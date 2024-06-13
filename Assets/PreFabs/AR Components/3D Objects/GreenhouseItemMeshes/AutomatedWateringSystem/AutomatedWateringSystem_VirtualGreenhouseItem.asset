@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: AutomatedWateringSystem_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 4038563104886782605, guid: 4bf093e2cb2954af588935e228d7f062,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 9139647269143828174, guid: ca0fad39b9d4c4fc691fd29647426f63,
+    type: 3}
+  nearFoundPrefab: {fileID: 9139647269143828174, guid: f54d20cc5fa2a4e1e9e5b50fbe6a2fb5,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: 7e7f1e16809e443688ab0d2c67f88e80,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: b5eae001c68974bf6a0e823ef1552bde,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: b9a811630583f4d509c2509449685bd5,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: dd3f05ab141544131a0da1bbcc74644e, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: e6b1d02818e5e462f8662025a6a8bfa7,
+    type: 2}
+  categoryName: 2
+  objectName: 6

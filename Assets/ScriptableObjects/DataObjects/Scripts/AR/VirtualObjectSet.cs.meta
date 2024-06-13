@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 659478a66b0df44f09354663c2829559
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - zoneCompleted: {fileID: 11400000, guid: 4076fc1836be840c3813e11c201a2509, type: 2}
+  - appAndSoftwareCategoryCompleted: {fileID: 11400000, guid: bfedac41290414f8d80547bcd1256828,
+      type: 2}
+  - sensorCategoryCompleted: {fileID: 11400000, guid: 5b1782e54d22e4d1a935a9ad3ad07fe7,
+      type: 2}
+  - systemsCategoryCompleted: {fileID: 11400000, guid: 05f9c98b3b5c54031a5d14d1cfa9a8e4,
+      type: 2}
+  - sustainabilityCategoryCompleted: {fileID: 11400000, guid: 4c2de25fa366f4623a3cef4d212a6a69,
+      type: 2}
+  - huntCompleted: {fileID: 11400000, guid: 26337d30b4d06418186576b16b92732c, type: 2}
+  - userCompletedZones: {fileID: 11400000, guid: bfff52f4102574953a4bb627cd45f690,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

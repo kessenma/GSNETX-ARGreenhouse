@@ -1,0 +1,205 @@
+using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
+
+[CreateAssetMenu(menuName = "Sets/Virtual Object Set", fileName = "VirtualObjectSet")]
+public class VirtualObjectSet : RuntimeSet<VirtualObjectBase>
+{
+    // populating class with data and methods necessary to manage and track a list of virtualObjectBase
+
+    // Dictionary for counts of objects found for each zone, category, and object
+    private Dictionary<ZoneNames, FoundCounter> zoneCounts =
+        new Dictionary<ZoneNames, FoundCounter>();
+    private readonly Dictionary<CategoryNames, FoundCounter> categoryCounts =
+        new Dictionary<CategoryNames, FoundCounter>();
+    private readonly Dictionary<ObjectNames, FoundCounter> objectCounts =
+        new Dictionary<ObjectNames, FoundCounter>();
+
+
+    public void InitializeFoundCounts()
+    {
+        Debug.Log("Sean/Tyler - Start of Start: count of Virtual Items in UpdateCount: " + Items.Count);
+        foreach (var obj in Items)
+        {
+            if (obj.virtualGreenhouseItem != null)
+            {
+                Debug.Log($"Sean/Tyler - InitializeZones - ZoneName: {obj.zoneName}, CategoryName: {obj.virtualGreenhouseItem.categoryName}, TotalToFindValue: {obj.virtualGreenhouseItem.objectName}, isFound: {obj.isFound}");
+
+                AddToRequiredCount(objectCounts, obj.virtualGreenhouseItem.objectName);
+                AddToRequiredCount(categoryCounts, obj.virtualGreenhouseItem.categoryName);
+                AddToRequiredCount(zoneCounts, obj.zoneName);
+            }
+            else
+            {
+                Debug.Log("Sean/Tyler - Found virtualGreenhouseItem that was null");
+            }
+        }
+
+        PrintOutResultsInDictionary(objectCounts);
+        PrintOutResultsInDictionary(categoryCounts);
+        PrintOutResultsInDictionary(zoneCounts);
+
+        Debug.Log("Sean/Tyler - End of Start: count of Virtual Items in UpdateCount: " + Items.Count);
+
+
+    }
+
+    /// <summary>
+    /// Checks if there is a completed object/category/zone
+    /// </summary>
+    public void CheckFoundCounts()
+    {
+        CheckFoundCount(objectCounts, FoundAllItemsInObjectSet);
+        CheckFoundCount(categoryCounts, FoundAllItemsInCategorySet);
+        CheckFoundCount(zoneCounts, FoundAllItemsInZoneSet);
+    }
+
+    /// <summary>
+    /// Reclaculates the actualFoundCOunt value for each item for each object/zone/category
+    /// </summary>
+    public void UpdateFoundCounts()
+    {
+
+        Debug.Log("Sean/Tyler - Print out Dictionary Counts in UpdateFoundCounts");
+        PrintOutResultsInDictionary(objectCounts);
+        PrintOutResultsInDictionary(categoryCounts);
+        PrintOutResultsInDictionary(zoneCounts);
+
+        ResetFoundCounts();
+
+        Debug.Log("Sean/Tyler - Print out Dictionary Counts in UpdateFoundCounts");
+        PrintOutResultsInDictionary(objectCounts);
+        PrintOutResultsInDictionary(categoryCounts);
+        PrintOutResultsInDictionary(zoneCounts);
+
+        Debug.Log("Sean/Tyler - count of Virtual Items in UpdateCount: " + Items.Count);
+
+        foreach (var obj in Items.Where(vo => vo.virtualGreenhouseItem != null))
+        {
+
+            Debug.Log("Sean/Tyler - Entered UpdateFoundCount");
+            Debug.Log($"Sean/Tyler - ZoneName: {obj.zoneName}, CategoryName: {obj.virtualGreenhouseItem.categoryName}, TotalToFindValue: {obj.virtualGreenhouseItem.objectName}, isFound: {obj.isFound}");
+
+
+            if (obj.isFound)
+            {
+                Debug.Log($"Sean/Tyler - Entered UpdateFoundCount with obj={obj}");
+
+     
+                Debug.Log("Sean/Tyler - Encountered Found object and now incrementing counts");
+
+                objectCounts[obj.virtualGreenhouseItem.objectName].IncrementActual();
+                categoryCounts[obj.virtualGreenhouseItem.categoryName].IncrementActual();
+                zoneCounts[obj.zoneName].IncrementActual();
+                
+            }
+        }
+    }
+
+
+
+    private void PrintOutResultsInDictionary<T>(Dictionary<T, FoundCounter> dict)
+    {
+        Debug.Log("Sean/Tyler Entering Print Results of Dictionary; count of Values: " + dict.Values.Count);
+        foreach (KeyValuePair<T, FoundCounter> entry in dict)
+        {
+            Debug.Log($"Sean/Tyler - Key: {entry.Key}, Value.FoundCount: {entry.Value.actualFoundCount}, RequiredCount: {entry.Value.requiredFoundCount}");
+        }
+    }
+
+    private void AddToRequiredCount<T>(Dictionary<T, FoundCounter> dict, T name)
+    {
+        // Add or update the required found count for this name
+        if (dict.ContainsKey(name))
+        {
+            // Increment the required found count for this name
+            dict[name].IncrementRequired();
+        }
+        else
+        {
+            // Add the name to the dictionary initializing the required found count required for completion
+            dict.Add(name, new FoundCounter());
+        }
+    }
+
+    /// <summary>
+    /// The event handler to call whenever a new object is found to signal updating counts
+    /// </summary>
+    //public void OnFoundObject()
+    //{
+    //    Debug.Log("Sean/Tyler - OnFoundObject was called");
+    //    UpdateFoundCounts();
+    //    CheckFoundCounts();
+    //}
+
+  
+
+    /// <summary>
+    /// Resets the actualFoundCount for all items in each dictionary
+    /// </summary>
+    private void ResetFoundCounts()
+    {
+        ResetFoundCount(objectCounts);
+        ResetFoundCount(categoryCounts);
+        ResetFoundCount(zoneCounts);
+    }
+
+    /// <summary>
+    /// Resets the actual found count for each item in the dictionary
+    /// </summary>
+    private void ResetFoundCount<T>(Dictionary<T, FoundCounter> dict)
+    {
+        Debug.Log("Sean/Tyler - entered Reset Found count, printing out results of passed dictionary");
+        PrintOutResultsInDictionary(dict);
+        foreach (var obj in dict.Values)
+        {
+            obj.ResetActual();
+        }
+
+        Debug.Log("Sean/Tyler - After resetActuals was called on every value, printing out results of passed dictionary");
+        PrintOutResultsInDictionary(dict);
+
+
+    }
+
+
+
+    private delegate void CountComplete<T>(T name);
+
+    /// <summary>
+    /// Checks if there are any completed counters within the dictionary, performs complete callback
+    /// </summary>
+    private void CheckFoundCount<T>(Dictionary<T, FoundCounter> dict, CountComplete<T> complete)
+    {
+        foreach (var obj in dict)
+        {
+            Debug.Log($"Key: {obj.Key}, FoundValue: {obj.Value.actualFoundCount}, TotalToFindValue: {obj.Value.requiredFoundCount}");
+            if (obj.Value.actualFoundCount == obj.Value.requiredFoundCount && !obj.Value.hasBeenTriggered)
+            {
+                Debug.Log("Entered If for FoundCount == RequiredCount");
+                complete(obj.Key);
+                Debug.Log("Finished Callback and Now calling FoundRequiredAmount");
+                obj.Value.FoundRequiredAmount();
+            }
+        }
+    }
+
+    private void FoundAllItemsInObjectSet(ObjectNames name)
+    {
+        // TODO: event when a certain object is completed
+        Debug.Log("TriggerFoundEvent - Enter Found all items in OBJECT set: " + name.ToDescription());
+    }
+
+    private void FoundAllItemsInCategorySet(CategoryNames name)
+    {
+        // TODO: event when a certain category is completed
+        Debug.Log("TriggerFoundEvent - Enter Found all items in CATEGORY set: " + name.ToDescription());
+    }
+
+    private void FoundAllItemsInZoneSet(ZoneNames name)
+    {
+        // TODO: event when a certain zone is completed
+        Debug.Log("TriggerFoundEvent - Enter Found all items in ZONE set: " + name.ToDescription());
+
+    }
+}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659478a66b0df44f09354663c2829559, type: 3}
+  m_Name: Bridget_VirtualObjectSet
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: a78d1632e892a475996c749d9c0c6838, type: 2}
+  - {fileID: 11400000, guid: 1afbc6295322d49f280aa4dcd60bec94, type: 2}
+  - {fileID: 11400000, guid: 23c228b8a0a6b43889d4e2a9ad866f19, type: 2}
+  - {fileID: 11400000, guid: 0e03f8931f6f44790946bd6c69848841, type: 2}
+  - {fileID: 11400000, guid: d7faa593ede7c44b196c1573b6fb4d76, type: 2}
+  CurrentIndex: 0

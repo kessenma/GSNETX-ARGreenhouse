@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ARZones
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5091901426865551872
+  m_GuidHigh: 15105834036453139584
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4725827335748109863
+      m_GuidHigh: 2950588416174502801
+    m_SerializedTextureGuid:
+      m_GuidLow: 9558373243437406403
+      m_GuidHigh: 9300393076583254361
+    m_Size: {x: 0.14114575, y: 0.1651}
+    m_SpecifySize: 1
+    m_Name: ZoneA
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5589711691763992555
+      m_GuidHigh: 9670423540177117064
+    m_SerializedTextureGuid:
+      m_GuidLow: 9532521392676845574
+      m_GuidHigh: 4948463161372091928
+    m_Size: {x: 0.14153352, y: 0.1651}
+    m_SpecifySize: 1
+    m_Name: ZoneB
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5547117810607689638
+      m_GuidHigh: 11370688236977422983
+    m_SerializedTextureGuid:
+      m_GuidLow: 10701909356818098646
+      m_GuidHigh: 3500164674873858346
+    m_Size: {x: 0.14146388, y: 0.1651}
+    m_SpecifySize: 1
+    m_Name: ZoneC
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5058449735397016441
+      m_GuidHigh: 13801208694228147612
+    m_SerializedTextureGuid:
+      m_GuidLow: 13019972217070920916
+      m_GuidHigh: 282335309604674088
+    m_Size: {x: 0.14029798, y: 0.1651}
+    m_SpecifySize: 1
+    m_Name: ZoneD
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4738874727666815232
+      m_GuidHigh: 5727967964980348850
+    m_SerializedTextureGuid:
+      m_GuidLow: 1490449431323018455
+      m_GuidHigh: 15558414748755441242
+    m_Size: {x: 0.32, y: 0.16}
+    m_SpecifySize: 1
+    m_Name: ZoneDemo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4841941702406425112
+      m_GuidHigh: 5605469980065663653
+    m_SerializedTextureGuid:
+      m_GuidLow: 6119745783109427450
+      m_GuidHigh: 3002812348660283673
+    m_Size: {x: 0.16, y: 0.083466664}
+    m_SpecifySize: 1
+    m_Name: ZoneHayden
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5467117853644204911
+      m_GuidHigh: 14097831354664016562
+    m_SerializedTextureGuid:
+      m_GuidLow: 10721070280984517800
+      m_GuidHigh: 6049115088894233592
+    m_Size: {x: 0.16, y: 0.09320833}
+    m_SpecifySize: 1
+    m_Name: ZoneAmy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4680981263653013576
+      m_GuidHigh: 13781286358487658932
+    m_SerializedTextureGuid:
+      m_GuidLow: 4903030062067038336
+      m_GuidHigh: 4097570305989885915
+    m_Size: {x: 0.16, y: 0.079444446}
+    m_SpecifySize: 1
+    m_Name: ZoneSam
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5686560247367549813
+      m_GuidHigh: 3971802922087166908
+    m_SerializedTextureGuid:
+      m_GuidLow: 7262544814500646740
+      m_GuidHigh: 10198602473710660585
+    m_Size: {x: 0.16, y: 0.089999996}
+    m_SpecifySize: 1
+    m_Name: ZoneBridget
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4977238171078299159
+      m_GuidHigh: 9032713996909144246
+    m_SerializedTextureGuid:
+      m_GuidLow: 2606907782600238120
+      m_GuidHigh: 7885440799836071785
+    m_Size: {x: 0.16, y: 0.111999996}
+    m_SpecifySize: 1
+    m_Name: ZoneBodric
+    m_Texture: {fileID: 0}

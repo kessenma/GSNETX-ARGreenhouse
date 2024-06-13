@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: CameraSensor_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 4467640149225978121, guid: 7f545041bbbc247898d5b7745c2431e8,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 9011089373931609773, guid: 7186e02f0d1194c83b62b794e33550db,
+    type: 3}
+  nearFoundPrefab: {fileID: 9011089373931609773, guid: 2f79b8305f6494b1091e1473b9fa8bb2,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: ee9480292426e41a3ae21b4247dd6d85,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: 1793f965c9dbe4e968f1579c8f14781f,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: 0f51553b5ff4644ad9ce243762b222c2,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: 155285735906c4e7ea936bde3f55eeb5, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 09fc1e4b80db542eb89d55f3a994e1a2,
+    type: 2}
+  categoryName: 1
+  objectName: 4

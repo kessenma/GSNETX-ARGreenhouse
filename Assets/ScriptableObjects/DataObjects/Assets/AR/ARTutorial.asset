@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e207a732c5444baa618a6f39c3103f, type: 3}
+  m_Name: ARTutorial
+  m_EditorClassIdentifier: 
+  remiPanel1: Look around you! This is what the greenhouse looks like now.
+  remiPanel2: You are now going on a scavenger hunt to find the items that make up
+    this smart greenhouse!
+  remiPanel4: Look around and walk up to the rainbow with your iPad. When you are
+    close to it, tap it!
+  remiPanel5: This lets you read about what role the object plays in the greenhouse!
+  remiPanel6: If you think the object is cool, you can tap the heart to like or unlike
+    it! Try it out now.
+  remiPanel7: Once you are done, tap outside of the card to close it.
+  remiPanel8: As you can see the rainbow has turned <color=#00B451>green</color>
+    and stoped floating. All found objects will do this!
+  remiPanel9: Just as a reminder, unfound objects will float!
+  remiPanel11: All of the objects you have to find are listed here. Tap this button
+    to show or hide your progress. Try it out now.
+  remiPanel12: There are 4 different zones. You must find ALL of the objects in a
+    zone to continue.
+  remiPanel13: To enter a zone, you need to scan 1 of the 4 zone images. This map
+    shows you the location of each of these images in the area.
+  remiPanel14: Let's scan the first one now! Hold your iPad as straight as you can
+    so that it can see the picture clearly.
+  remiPanel15: Great job! Now you can find all of the objects in this zone.
+  remiPanel16: Don't forget to watch where you are walking and stay safe. Have fun!

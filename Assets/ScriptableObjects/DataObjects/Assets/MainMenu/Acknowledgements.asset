@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71097c72df06f462b82de84a5b71ad2f, type: 3}
+  m_Name: Acknowledgements
+  m_EditorClassIdentifier: 
+  clickCompanies: Click on this button to see all of the companies that contributed
+    to the success of this project!
+  clickNames: Click on this button to see the names of the people that contributed
+    significantly to the success of this project!
+  clickWebsites: Click on this button to see all of the websites that were used to
+    create this app!
+  companyTitle: 'A Big Thanks To:'
+  namesTitle: 'A Special Thank You To:'
+  websitesTitle: 'Websites:'
+  websites:
+  - 'Browne, C. (2021, July 19). What Is the Average UX Designer Salary? CareerFoundry. '
+  - 'Feeding America. (n.d.). How do you measure hunger? Feeding America. '
+  - 'Glassdoor, Inc. (2020,). Girl Scouts USA Program Manager Salaries. Glassdoor. '
+  - 'Gundersen, C., A. Dewey, M. Kato, A. Crumbaugh & M. Strayer. Map the Meal Gap
+    2019: A Report on County and Congressional District Food Insecurity and County
+    Food Cost in the United States in 2017. Feeding America, 2019. '
+  - "Icons8 LLC. (n.d.). Walking Icon \u2013 Free Download, PNG and Vector. Icons,
+    illustrations, photos, music, and design tools. "
+  - 'PayScale, Inc. (2021, July 7). Average Graphic Designer Salary. PayScale. '
+  - 'PayScale, Inc. (2021, April 5). Average Salary for Pariveda Solutions Employees.
+    PayScale. '
+  - QuickStats API. USDA/NASS QuickStats Ad-hoc Query Tool. (2010, November). This
+    product uses the NASS API but is not endorsed or certified by NASS.
+  - 'Pinduoduo. (2021, March 23). Aquaponics vs. Soil - What is the Difference? Pinduoduo. '
+  - 'Salary.com. (2021, June 28). Botanist Salary. Salary.com. '
+  - 'Sensorex. (2020, March 24). Aquaponics vs Hydroponics: Which One Is Best For
+    You? Sensorex. '
+  - 'Sokanu Interactive Inc. (2020, April 3). Agricultural and food science technician
+    salary. CareerExplorer. '
+  - 'Sokanu Interactive Inc. (2020, May 1). Computer hardware engineer salary. CareerExplorer. '
+  - This product uses the Census Bureau Data API but is not endorsed or certified
+    by the Census Bureau.
+  - U.S. News & World Report. (2019). How Much Can an Architect Expect to Get Paid?
+    U.S. News & World Report.
+  - 'U.S. News & World Report. (2019). How Much Can a Civil Engineer Expect to Get
+    Paid? U.S. News & World Report. '
+  - 'ZipRecruiter, Inc. (2021, July 21). Greenhouse Worker Annual Salary. ZipRecruiter. '
+  names:
+  - Emily Anderson
+  - David Bacon
+  - Jessica Bonner
+  - Sean Blonien
+  - Lauran Clarke
+  - Keon Cleary
+  - Dr. Regina Greuel Cook
+  - Dr. Angel Durr
+  - Tyler Glass
+  - Zach Hartzog
+  - Sam Hesler
+  - Tracy Friday
+  - Matt Keith
+  - Charles Knight
+  - Dakota Kronberger
+  - Abby Leake
+  - Jimmy Meza
+  - Kristen Pekala
+  - Andrew Perkins
+  - Jeffrey Raska
+  - Amy Rester
+  - Bridget Roberts
+  - Hayden Roper
+  - Scott Roush
+  - Elizabeth Rudd
+  - Jennifer Sanders
+  - Gagandeep Singh
+  - Bodric St. Onge
+  - Erin Vorland
+  - Samuel Yapkowitz

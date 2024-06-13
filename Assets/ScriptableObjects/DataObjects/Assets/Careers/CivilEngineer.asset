@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0c5d33edbf7431bb4a06371d9b40bc, type: 3}
+  m_Name: CivilEngineer
+  m_EditorClassIdentifier: 
+  careerTitle: Civil Engineer
+  careerSkill_1: Math
+  careerSkill_2: Construction
+  careerSkill_3: Design
+  careerDesciption: The civil engineers design and build the frame of the greenhouse.
+  careerSalaryMin: 68000
+  careerSalaryMax: 114000
+  careerEducationReq: This job requires a 4-year bachelor's degree.
+  relatedActivity: Think Like An Engineer Journey
+  isVisited: 0

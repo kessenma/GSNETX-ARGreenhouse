@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: VerticalHydroponic_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 100000, guid: 7b74e5ff1b82743fe9d5a3cd0431ac4d, type: 3}
+  nearNotFoundPrefab: {fileID: 100000, guid: e59f675593ad44ceea385297b358c158, type: 3}
+  nearFoundPrefab: {fileID: 100000, guid: 386d77c1e4a824aa7b574f3b828b572f, type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: 790391fb9e7f7483cb7af1f3bc5271f7,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: 16ffdb64bd58b4c01b880fe08d3eabea,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: d7cbe3eee0c6749f69563f8783aba43b,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: 5ed4303de41654255b93c4a7632f66dc, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 99c419c85d992415b944afd54971cd87,
+    type: 2}
+  categoryName: 4
+  objectName: 13

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14aaf772361584761aae5a000e0afb79, type: 3}
+  m_Name: SoilMoistureSensor_VirtualGreenhouseItem
+  m_EditorClassIdentifier: 
+  immediatePrefab: {fileID: 5891394120615820070, guid: be198b0c0bb6a4302abf18ba4d6ab3cb,
+    type: 3}
+  nearNotFoundPrefab: {fileID: 5530266943273540101, guid: 3d67c737169084ee785786627b51fe0f,
+    type: 3}
+  nearFoundPrefab: {fileID: 5530266943273540101, guid: baa1424b28a334ef8a7ffbcd9f129a03,
+    type: 3}
+  farNotFoundPrefab: {fileID: 8057929509677138861, guid: db57f8737c9cf48a2abc02e476cab465,
+    type: 3}
+  farFoundPrefab: {fileID: 8057929509677138861, guid: f3a78b99db3a84eb38bae8edfdcc8d5a,
+    type: 3}
+  popUpPrefab: {fileID: 6525450276718454165, guid: ea8f67efbb19c47e8bf947642a330104,
+    type: 3}
+  itemFound: {fileID: 11400000, guid: 5ca288db1c6554bcdb2cb0bbdac45b6c, type: 2}
+  itemInCategoryFound: {fileID: 11400000, guid: 09fc1e4b80db542eb89d55f3a994e1a2,
+    type: 2}
+  categoryName: 1
+  objectName: 1

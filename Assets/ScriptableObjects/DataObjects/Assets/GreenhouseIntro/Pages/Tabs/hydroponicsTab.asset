@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a225fd4fae542b7ad28862b1892422, type: 3}
+  m_Name: hydroponicsTab
+  m_EditorClassIdentifier: 
+  label: Hydroponics
+  bodyTitle: Hydroponics
+  bodyText: Hydroponics refers to plants that grow without soil. These plants are
+    sustained by water which caretakers routinely add special chemical nutrients
+    to. This type of growing is common for basil, tomato and lettuce plants.
+  benefitsText: 'Benefits:'
+  benefit1: Produces more than soil planters because of longer growing season
+  benefit2: Consistent results
+  img: {fileID: 21300000, guid: 9f0d4d9421fc24321b414f77134f0e91, type: 3}

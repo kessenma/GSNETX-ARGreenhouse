@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0c5d33edbf7431bb4a06371d9b40bc, type: 3}
+  m_Name: GraphicDesigner
+  m_EditorClassIdentifier: 
+  careerTitle: Graphic Designer
+  careerSkill_1: Art
+  careerSkill_2: Imagination
+  careerSkill_3: Design
+  careerDesciption: The graphic designers create fun and interesting images that
+    are used throughout the app.
+  careerSalaryMin: 34000
+  careerSalaryMax: 65000
+  careerEducationReq: "This job requires a 4-year bachelor\u2019s degree."
+  relatedActivity: Website Designer badge and Digital Movie Maker badge
+  isVisited: 0
